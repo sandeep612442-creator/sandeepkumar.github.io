@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Kumar | Developer Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background-color: #eef2f7;
+            color: #222;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            color: #fff;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #1d2671;
+        }
+
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: #f0f3fa;
+            padding: 12px;
+            text-align: center;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1d2671;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <h1>Sandeep Kumar</h1>
+        <p>Android Developer • Software Engineer • Problem Solver</p>
+    </section>
+
+    <main class="container">
+
+        <div class="card">
+            <h2>Profile</h2>
+            <p>
+                Experienced software developer specializing in Android applications,
+                clean architecture, modern UI development, and scalable API integration.
+                Passionate about writing maintainable code and building real-world solutions.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Technical Expertise</h2>
+            <div class="skill-grid">
+                <div class="skill">Kotlin</div>
+                <div class="skill">Java</div>
+                <div class="skill">Jetpack Compose</div>
+                <div class="skill">Android SDK</div>
+                <div class="skill">REST APIs</div>
+                <div class="skill">GraphQL</div>
+                <div class="skill">Git</div>
+                <div class="skill">AWS</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Selected Work</h2>
+            <div class="project">
+                <p class="project-title">Secure Finance App</p>
+                <p>Implemented authentication, API integration, and optimized UI performance.</p>
+            </div>
+            <div class="project">
+                <p class="project-title">Personal Portfolio</p>
+                <p>Designed a responsive portfolio showcasing projects and skills.</p>
+            </div>
+            <div class="project">
+                <p class="project-title">Task Tracker App</p>
+                <p>Built a productivity app with clean architecture and local storage.</p>
+            </div>
+        </div>
+
+        <div class="card contact-info">
+            <h2>Get in Touch</h2>
+            <p>Email: sandeep@example.com</p>
+            <p>LinkedIn: linkedin.com/in/sandeep</p>
+            <p>GitHub: github.com/sandeep</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Sandeep Kumar</p>
+    </footer>
+
+</body>
+</html>
