@@ -3,151 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandeep Kumar | Developer Portfolio</title>
+    <title>Sandeep Kumar Ratnala | Senior Android Developer</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
-            font-family: "Segoe UI", Tahoma, sans-serif;
-            background-color: #eef2f7;
-            color: #222;
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #2c2c2c;
+            line-height: 1.6;
         }
 
-        .hero {
-            background: linear-gradient(135deg, #1d2671, #c33764);
-            color: #fff;
-            padding: 70px 20px;
+        .top-section {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 60px 20px;
             text-align: center;
         }
 
-        .hero h1 {
-            font-size: 40px;
+        .top-section h1 {
             margin-bottom: 10px;
+            font-size: 36px;
         }
 
-        .hero p {
+        .top-section p {
             font-size: 18px;
             opacity: 0.9;
         }
 
-        .container {
-            width: 90%;
-            max-width: 1000px;
+        .wrapper {
+            max-width: 1100px;
             margin: 40px auto;
+            padding: 0 20px;
         }
 
-        .card {
-            background: #fff;
+        .block {
+            background: #ffffff;
             padding: 30px;
             margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
         }
 
-        .card h2 {
+        .block h2 {
             margin-top: 0;
-            color: #1d2671;
+            color: #0f172a;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
         }
 
-        .skill-grid {
+        .skills-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
             margin-top: 20px;
         }
 
-        .skill {
-            background: #f0f3fa;
-            padding: 12px;
-            text-align: center;
+        .skill-item {
+            background-color: #eef2ff;
+            padding: 10px;
             border-radius: 6px;
             font-weight: 600;
+            text-align: center;
         }
 
-        .project {
-            margin-bottom: 15px;
-        }
-
-        .project-title {
-            font-weight: bold;
-        }
-
-        .contact-info p {
-            margin: 8px 0;
+        .contact p {
+            margin: 6px 0;
+            font-size: 16px;
         }
 
         footer {
+            background-color: #0f172a;
+            color: white;
             text-align: center;
-            padding: 25px;
-            background: #1d2671;
-            color: #fff;
+            padding: 20px;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
 
-    <section class="hero">
-        <h1>Sandeep Kumar</h1>
-        <p>Android Developer • Software Engineer • Problem Solver</p>
+    <section class="top-section">
+        <h1>Sandeep Kumar Ratnala</h1>
+        <p>Senior Android Developer | Kotlin | Jetpack Compose | Cloud & Microservices</p>
     </section>
 
-    <main class="container">
+    <main class="wrapper">
 
-        <div class="card">
+        <section class="block">
             <h2>Profile</h2>
             <p>
-                Experienced software developer specializing in Android applications,
-                clean architecture, modern UI development, and scalable API integration.
-                Passionate about writing maintainable code and building real-world solutions.
+                Senior Android Developer with over 10 years of experience designing, developing,
+                and optimizing high-performance mobile applications across retail, healthcare,
+                banking, and e-commerce domains. Proven expertise in delivering scalable,
+                secure, and user-centric Android solutions using modern development practices.
             </p>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="block">
+            <h2>About</h2>
+            <p>
+                I specialize in building robust Android applications using Kotlin and Java,
+                following clean architecture principles such as MVVM and modular design.
+                My experience spans full lifecycle development, from UI/UX implementation
+                using Jetpack Compose to backend integration using RESTful and GraphQL APIs.
+            </p>
+            <p>
+                I have strong expertise in asynchronous programming with Coroutines and Flows,
+                dependency injection using Dagger and Hilt, and performance optimization
+                techniques that reduce ANRs and memory issues. I am passionate about writing
+                clean, testable code and contributing to high-impact applications that scale.
+            </p>
+        </section>
+
+        <section class="block">
             <h2>Technical Expertise</h2>
-            <div class="skill-grid">
-                <div class="skill">Kotlin</div>
-                <div class="skill">Java</div>
-                <div class="skill">Jetpack Compose</div>
-                <div class="skill">Android SDK</div>
-                <div class="skill">REST APIs</div>
-                <div class="skill">GraphQL</div>
-                <div class="skill">Git</div>
-                <div class="skill">AWS</div>
+            <div class="skills-list">
+                <div class="skill-item">Kotlin & Java</div>
+                <div class="skill-item">Android SDK & Android Studio</div>
+                <div class="skill-item">Jetpack Compose & XML UI</div>
+                <div class="skill-item">MVVM, MVC, Singleton</div>
+                <div class="skill-item">Coroutines, Flows, RxJava</div>
+                <div class="skill-item">Dagger & Hilt</div>
+                <div class="skill-item">Room, SQLite, DataStore</div>
+                <div class="skill-item">REST APIs & GraphQL</div>
+                <div class="skill-item">Retrofit & OkHttp</div>
+                <div class="skill-item">JUnit, Espresso, Mockito</div>
+                <div class="skill-item">AWS & Firebase</div>
+                <div class="skill-item">CI/CD, Docker, Jenkins</div>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
-            <h2>Selected Work</h2>
-            <div class="project">
-                <p class="project-title">Secure Finance App</p>
-                <p>Implemented authentication, API integration, and optimized UI performance.</p>
-            </div>
-            <div class="project">
-                <p class="project-title">Personal Portfolio</p>
-                <p>Designed a responsive portfolio showcasing projects and skills.</p>
-            </div>
-            <div class="project">
-                <p class="project-title">Task Tracker App</p>
-                <p>Built a productivity app with clean architecture and local storage.</p>
-            </div>
-        </div>
-
-        <div class="card contact-info">
+        <section class="block contact">
             <h2>Get in Touch</h2>
-            <p>Email: sandeep@example.com</p>
-            <p>LinkedIn: linkedin.com/in/sandeep</p>
-            <p>GitHub: github.com/sandeep</p>
-        </div>
+            <p><strong>Email:</strong> sandeep612442@gmail.com</p>
+            <p><strong>Phone:</strong> +1 507-593-9671</p>
+            <p><strong>Location:</strong> United States</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/sandeep-kumar-ratnala</p>
+            <p><strong>GitHub:</strong> github.com/sandeep</p>
+        </section>
 
     </main>
 
     <footer>
-        <p>© 2026 Sandeep Kumar</p>
+        © 2026 Sandeep Kumar Ratnala | Senior Android Developer
     </footer>
 
 </body>
